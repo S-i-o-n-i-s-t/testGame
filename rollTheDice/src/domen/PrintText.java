@@ -12,7 +12,7 @@ public class PrintText {
         System.out.println("Не ожидал от тебя такого. Загаданное число меньше, брат");
     }
     public void exepchonScanner(){
-        System.out.println("Вы ввели не корректные данные, попробуйте еще раз");
+        System.out.print("Вы ввели не корректные данные, попробуйте еще раз: ");
     }
     public void numVictory(int num){
         System.out.println("да, это было число " + num);
