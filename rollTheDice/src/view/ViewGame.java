@@ -24,18 +24,17 @@ public class ViewGame {
     public void startGame(){
         System.out.println("Подсказочка :) " + num.getTheHiddenNumber());
         int flag = 2;
-        int numberOfBets = 0;
         while (flag != 0) {
             printText.helloBet();
             flag = Integer.compare(num.getTheHiddenNumber(), player.enteringANumber());
-            numberOfBets++;
+            player.numberOfBets();
             if (flag == -1){
                 printText.theNumberIsLess();
             } else if (flag == 1) {
                 printText.theNumberIsGreater();
             }
         }
-        if ( numberOfBets != 1)printText.numberOfBets(numberOfBets);
+        if (player.getNumberOfBets() != 1)printText.numberOfBets(player.getNumberOfBets());
         else printText.coolVictory();
         printText.numVictory(num.getTheHiddenNumber());
     }
