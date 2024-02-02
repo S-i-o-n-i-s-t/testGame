@@ -8,10 +8,6 @@ public class Player {
      */
     private int numPlayer;
     /**
-     * Количество попыток угадать число
-     */
-    private int numberOfBets = 0;
-    /**
      * Метод ввода в консоль числа игроком
      * @return Число которое ввел игрок
      */
@@ -31,18 +27,5 @@ public class Player {
      */
     public void setNumPlayer(int numPlayer) {
         this.numPlayer = numPlayer;
-    }
-    /**
-     * Счетчик количества попыток
-     */
-    public void numberOfBets(){
-        numberOfBets++;
-    }
-    /**
-     * Геттер количества попыток
-     * @return количество попыток угадать число
-     */
-    public int getNumberOfBets() {
-        return numberOfBets;
     }
 }
