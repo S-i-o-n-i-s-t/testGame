@@ -7,9 +7,8 @@ public class Num {
      * Число, которое нужно будет угадать
      */
     private final int theHiddenNumber = new Random().nextInt(1,101);
-
     /**
-     * Геттер угадываемого чисал
+     * Геттер угадываемого числа
      * @return число
      */
     public int getTheHiddenNumber() {

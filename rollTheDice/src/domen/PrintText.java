@@ -21,7 +21,7 @@ public class PrintText {
         System.out.println("Ах ты читер!!! Ты угадал с первого раза...");
     }
     public void numberOfBets(int numberBets){
-        System.out.println("Победа!!! Ты не здавался " + numberBets + " раз!!!");
+        System.out.println("Победа!!! Ты не здавался " + numberBets + " раз(a)!!! :)");
     }
     //endregion
 }

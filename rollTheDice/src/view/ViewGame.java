@@ -8,15 +8,15 @@ public class ViewGame {
     /**
      * Экземпляр класса в котором хранится загаданное число
      */
-    private Num num = new Num();
+    private final Num num = new Num();
     /**
      * Экземпляр класса, отвечающего за ввод числа в консоль
      */
-    private Player player = new Player();
+    private final Player player = new Player();
     /**
      * Экземпляр класса, отвечающего за вывод сообщений в консоль (общение с игроком)
      */
-    private PrintText printText = new PrintText();
+    private final PrintText printText = new PrintText();
 
     /**
      * Реализация игры
